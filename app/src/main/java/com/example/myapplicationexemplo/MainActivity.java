@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void somar(View view){
+
         int x,y,soma;
         x = Integer.parseInt(editTextNumber.getText().toString());
         y = Integer.parseInt(editTextNumber2.getText().toString());
